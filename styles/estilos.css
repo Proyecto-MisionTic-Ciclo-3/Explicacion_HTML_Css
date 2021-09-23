@@ -34,3 +34,45 @@ a {
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.imagenPequeña{
+    height: 300px;
+    
+}
+
+.parrafoAngosto{
+    height: 50px;
+    width: 350px;
+}
+
+.contenedorConMargen{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 18px;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.contenedorDivsGrids{
+    border: 2px solid green;
+    display: grid;
+    grid-column: auto;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px;
+    margin: 30px
+}
+
+.divTest{
+    border: 1px solid red;
+
+}
+
+.contenedorDivsFlex{ 
+    border: 2px solid green;
+    display: flex;
+    height: 500px;
+    justify-content:space-around;
+    align-items: flex-start;
+
+}

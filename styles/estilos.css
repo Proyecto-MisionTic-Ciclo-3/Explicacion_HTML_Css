@@ -1,0 +1,36 @@
+p {
+    color:green;
+}
+h3{
+    color:indigo
+}
+
+a {
+    background-color: lawngreen;
+}
+
+#parrafo3{
+    color: lightcoral;
+}
+
+.textoGris{
+    color:grey
+}
+
+.textoAzul {
+    color: blue
+}
+
+.fondoRojo{
+    background-color: red;
+}
+.fondoAmarillo{
+    background-color: yellow;
+}
+
+.textoGrandeNegrita{
+    font-size:x-large ;
+    font-style:italic ;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

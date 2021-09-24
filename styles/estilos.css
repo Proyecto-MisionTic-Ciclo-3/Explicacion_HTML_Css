@@ -11,24 +11,21 @@ ul{
     display: flex;
     justify-content: space-between;
 }
-
-
 .logo{
     height: 64px 64px;
 }
-.buscar{
-    background-color: white;
-    border: 1px solid gray;
-    padding: 4px;
-    border-radius: 8px;
-}
 
-.buscar:focus-within{
-    border: 1px solid #D96C80;
-}
+.mainButton{
+    background-color: #79C4F2;
+    color: ivory;
+    border:0px; 
+    padding:5px 10px;
+    border-radius:10px;
+    font-weight: bolder;
+    box-shadow: 1px 1px #BF8641;
+    }
 
-.buscar > input {
-    outline: none;
-    border: 0px;
-
+.mainButton:hover{
+    cursor:pointer;
+    transform: scale(1.1);
 }

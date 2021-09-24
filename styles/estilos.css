@@ -12,6 +12,10 @@ ul{
     justify-content: space-between;
 }
 
+
+.logo{
+    height: 64px 64px;
+
 .buscar{
     background-color: white;
     border: 1px solid gray;
@@ -25,4 +29,5 @@ ul{
 .buscar > input {
     outline: none;
     border: 0px;
+
 }

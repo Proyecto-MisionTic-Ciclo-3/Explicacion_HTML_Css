@@ -12,31 +12,17 @@ ul{
     justify-content: space-between;
 }
 
-.button{
-    border:0px; 
-    padding:5px 10px;
-    border-radius:10px;
-    font-weight: bolder;
+.buscar{
+    background-color: white;
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius: 8px;
 }
-.button:hover{
-    cursor:pointer;
-    transform: scale(1.1);
-}
-
-.mainButton{
-    background-color: #79C4F2;
-    color: ivory;
-}
-   
-.mainButton:hover{
-   box-shadow: 2px 2px #D96C80;
+.buscar:focus-within{
+    border: 1px solid #D96C80;
 }
 
-.secondaryButton{
-    background-color: #D96C80;
-    color: ivory;
-    }
-
-.secondaryButton:hover{
-    box-shadow: 1px 1px #9BDAF2;
+.buscar > input {
+    outline: none;
+    border: 0px;
 }

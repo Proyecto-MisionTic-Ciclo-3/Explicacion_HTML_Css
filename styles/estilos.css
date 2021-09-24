@@ -26,3 +26,19 @@ ul{
     cursor:pointer;
     transform: scale(1.1);
 }
+
+
+.secondaryButton{
+    background-color: #D96C80;
+    color: ivory;
+    border:0px; 
+    padding:5px 10px;
+    border-radius:10px;
+    font-weight: bolder;
+    box-shadow: 1px 1px #9BDAF2;
+    }
+
+.secondaryButton:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+}

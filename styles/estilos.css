@@ -12,33 +12,31 @@ ul{
     justify-content: space-between;
 }
 
-.mainButton{
-    background-color: #79C4F2;
-    color: ivory;
+.button{
     border:0px; 
     padding:5px 10px;
     border-radius:10px;
     font-weight: bolder;
-    box-shadow: 1px 1px #BF8641;
-    }
-
-.mainButton:hover{
+}
+.button:hover{
     cursor:pointer;
     transform: scale(1.1);
 }
 
+.mainButton{
+    background-color: #79C4F2;
+    color: ivory;
+}
+   
+.mainButton:hover{
+   box-shadow: 2px 2px #D96C80;
+}
 
 .secondaryButton{
     background-color: #D96C80;
     color: ivory;
-    border:0px; 
-    padding:5px 10px;
-    border-radius:10px;
-    font-weight: bolder;
-    box-shadow: 1px 1px #9BDAF2;
     }
 
 .secondaryButton:hover{
-    cursor:pointer;
-    transform: scale(1.1);
+    box-shadow: 1px 1px #9BDAF2;
 }

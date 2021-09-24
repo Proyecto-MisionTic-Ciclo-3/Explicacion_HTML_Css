@@ -11,6 +11,9 @@ ul{
     display: flex;
     justify-content: space-between;
 }
+.logo{
+    height: 64px 64px;
+}
 
 .mainButton{
     background-color: #79C4F2;

@@ -14,18 +14,32 @@ ul{
 .logo{
     height: 64px 64px;
 }
-
-.mainButton{
-    background-color: #79C4F2;
-    color: ivory;
+.button{
     border:0px; 
     padding:5px 10px;
     border-radius:10px;
     font-weight: bolder;
-    box-shadow: 1px 1px #BF8641;
-    }
+}
+.button:hover{
+    cursor:pointer;
+    transform: scale(1.1)
+}
+
+.mainButton{
+    background-color: #79C4F2;
+    color: ivory;
+}
 
 .mainButton:hover{
-    cursor:pointer;
-    transform: scale(1.1);
+    box-shadow: 1px 1px #BF8641;
+}
+
+
+.secondaryButton{
+    background-color: #D96C80;
+    color: ivory;
+    }
+
+.secondaryButton:hover{
+    box-shadow: 1px 1px #9BDAF2;
 }

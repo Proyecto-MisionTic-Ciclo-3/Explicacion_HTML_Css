@@ -75,15 +75,26 @@ color: #D96C80;
 }
 .breedCard{
     margin:10px;
+    background-color: #733924;
+    box-shadow: 4px 4px 6px #8C593B;
+    border-radius: 10px;
     }
+.breedTitle{
+    color: whitesmoke;
+    margin: 10px;
+    font-weight: bold;
+    font-size: larger;
+}
     
 .contenedorImagen{
     width: 240px;
     height: 350px;
     display:flex;
+    margin-bottom: 10px;
 }
 .contenedorImagen > img {
     object-fit: cover;
     width: 100%;
+    border-radius: 10px;
 }
 

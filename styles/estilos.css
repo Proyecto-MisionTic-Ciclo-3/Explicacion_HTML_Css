@@ -10,6 +10,14 @@ ul{
 .navbar{
     display: flex;
     justify-content: space-between;
+    padding: 10px;
+    background-color:  #8C4962;
+    border-bottom: 1px solid #733924;
+    box-shadow: 1px 1px #733924;
+}
+.navbar > li {
+    display: flex;
+    align-items: center;
 }
 .logo{
     height: 64px 64px;
@@ -48,6 +56,9 @@ ul{
     border:1px solid #D96C80;
     padding: 4px;
     border-radius: 8px;
+    width: 300px;
+    display:flex;
+    justify-content: space-between;
 }
 .buscar:focus-within{
     border:1px solid #9BDAF2;
@@ -55,4 +66,7 @@ ul{
 .buscar > input{
     outline: none;
     border:0px;
+}
+.iconoBusqueda:hover{
+color: #D96C80;
 }

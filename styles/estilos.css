@@ -11,8 +11,8 @@ ul{
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    background-color:  #8C4962;
-    border-bottom: 1px solid #733924;
+    background-color:  #D9965B;
+    border-bottom: 1px solid #8C593B;
     box-shadow: 1px 1px #733924;
 }
 .navbar > li {
@@ -44,7 +44,7 @@ ul{
 
 
 .secondaryButton{
-    background-color: #D96C80;
+    background-color: #8C4962;
     color: ivory;
     }
 
@@ -53,7 +53,7 @@ ul{
 }
 .buscar{
     background-color: white;
-    border:1px solid #D96C80;
+    border:1px solid #8C4962;
     padding: 4px;
     border-radius: 8px;
     width: 300px;

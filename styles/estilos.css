@@ -92,9 +92,15 @@ color: #D96C80;
     display:flex;
     margin-bottom: 10px;
 }
+.contenedorImagen:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
 .contenedorImagen > img {
     object-fit: cover;
     width: 100%;
-    border-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 

@@ -1,28 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./media/Logo.png";
+import "./styles/styles.css"
+import borderCollie from "./media/borderCollie.jpg"
+import Rhodesian from "./media/Rhodesian.jpg"
+
+
 
 function App() {
   return (
-    <div className="App">
+    <div classNameName="App">
       <header>
-    <ul class="navbar">
+    <ul className="navbar">
        <li>
            <div>
-               <img src= "./media/Logo.png" alt="imagen" class = "logo"/>
+               <img src= {logo} alt="imagen" className = "logo"/>
            </div>
         </li>
                  
         <li>
-            <button class="button mainButton"> Nuevo post</button>
+            <button className="button mainButton"> Nuevo post</button>
         </li>
-        <li><button class="button secondaryButton">Login</button></li>
+        <li><button className="button secondaryButton">Login</button></li>
         <li>
-            <div class ="buscar">
+            <div className ="buscar">
                 <input placeholder="Buscar una raza"/>
-                <i class="fas fa-search button iconoBusqueda"></i>
+                <i className="fas fa-search button iconoBusqueda"></i>
             </div>                   
         </li> 
-        <li><button class="button mainButton">Registro</button></li>     
+        <li><button className="button mainButton">Registro</button></li>     
         
      
 
@@ -32,19 +36,19 @@ function App() {
      <main>
         <section>
             <h1>Razas de perros</h1>
-            <ul class="breedCardContainer">
-                <li class="breedCard">
-                    <div class = "contenedorImagen">
-                        <img src="./media/Border Collie.jpg" alt="Border Collie"/>
+            <ul className="breedCardContainer">
+                <li className="breedCard">
+                    <div className = "contenedorImagen">
+                        <img src={borderCollie} alt="Border Collie"/>
                     </div>
-                    <span class = "breedTitle"> Border collie </span>
+                    <span className = "breedTitle"> Border collie </span>
                     
                 </li>
-                <li class="breedCard">
-                    <div class = "contenedorImagen">
-                        <img src="./media/Rhodesian.jpg" alt="Rhodesian"/>
+                <li className="breedCard">
+                    <div className = "contenedorImagen">
+                        <img src={Rhodesian} alt="Rhodesian"/>
                     </div>
-                    <span class = "breedTitle"> Rhodesian </span>
+                    <span className = "breedTitle"> Rhodesian </span>
                 </li>
 
 

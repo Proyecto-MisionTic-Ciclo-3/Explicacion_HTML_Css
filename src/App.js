@@ -41,7 +41,7 @@ function App() {
                     <div className = "contenedorImagen">
                         <img src={borderCollie} alt="Border Collie"/>
                     </div>
-                    <span className = "breedTitle"> Border collie </span>
+                    <span className = "breedTitle"> Bordercollie</span>
                     
                 </li>
                 <li className="breedCard">
